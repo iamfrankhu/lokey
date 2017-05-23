@@ -3,7 +3,7 @@
 import string
 def processFile(inputFile, outputFile,sqlname):                         #定义一个函数  
     fin = open(inputFile, 'r')                                  #以读的方式打开文件  
-    fout = open(outputFile, 'w')                                #以写得方式打开文件
+    fout = open(outputFile, 'w')                                #以写得方式打开
     sql = open(sqlname,'w')	
     sql.write('select ')
     eachLine=fin.readline()
